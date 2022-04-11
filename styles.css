@@ -8,6 +8,12 @@ html, body, .universal-container {
   width: 100%;
 }
 
+.title, .text, img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
 .coffe-icon {
   margin-bottom: 20px;
@@ -40,10 +46,12 @@ html, body, .universal-container {
   font-weight: normal;
   font-size: 24px;
   font-family: Arial;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .container {
+  width: 200px;
   border: 2px solid #7CFA98;
   display: flex;
   align-items: center;
@@ -53,12 +61,12 @@ html, body, .universal-container {
 
 .bg {
   background-color: #ebebeb;
-  color: #FF513F;
+  color: black;
 }
 
 .bg-1 {
   background-color: #FF513F;
-  color: #307AFA;
+  color: #ebebeb;
 }
 
 .bg-2 {
@@ -66,12 +74,7 @@ html, body, .universal-container {
   color: #ebebeb;
 }
 
-.text-color {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-
+.text {
   padding: 8px;
   font-size: 18px;
 }
